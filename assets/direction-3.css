@@ -1,12 +1,14 @@
 @font-face {
-	font-family: 'YourCustomFont'; /* Name your font */
-	src: url('../fonts/your-font.woff2') format('woff2'), /* Modern format */
-		 url('../fonts/your-font.woff') format('woff'), /* Fallback */
-		 url('/Users/devansh/Documents/Parsons/Classes/Typography and Interaction/binding/assets/Gladiator Display 1.2.otf') format('opentype');
+	font-family: 'Gladiator'; /* Name your font */
+	src: url('gladiator.otf') format('opentype');
   }
 
   .banners {
 	display: none;
+  }
+
+  body {
+	font-family: 'Gladiator', fantasy;
   }
 
   h2 {
@@ -16,3 +18,148 @@
   .sign {
 	display: none;
   }
+
+  header {
+	background-color: #B9B499;
+	padding: 1rem;
+	/* height: 100vh; */
+
+	.sign {
+		color: #DBD8D0;
+		letter-spacing: -0.8rem;
+	}
+}
+
+header p {
+	font-size: 5rem;
+	text-align: center;
+	letter-spacing: -0.1rem;
+}
+
+.d2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* justify-content: space-between; */
+	gap: 10rem;
+}
+
+.all_articles {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+
+.article {
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+.article p {
+	padding: 0.5rem;
+}
+
+.critique_button {
+	background-color: #391A17;
+	color: #B9B499;
+	text-align: center;
+	padding: 1.5rem;
+	max-width: fit-content;
+	margin: auto;
+}
+
+main {
+	max-width: 50ch;
+	margin: auto;
+}
+
+h2 {
+	font-size: 4rem;
+	padding: 2rem;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+footer {
+	background-color: #B9B499;
+	margin-top: 2rem;
+}
+
+.critique_text p {
+	max-width: 26ch;
+	margin: auto;
+	margin-top: 3rem;
+	text-align: center;
+	padding: 1rem;
+}
+
+.author {
+	font-size: 1rem;
+}
+
+.identity {
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	padding: 0.5rem;
+}
+
+.footerinfo {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+.coloured_letters {
+	color: #B73023;
+}
+
+@keyframes spin {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+
+  .sign {
+	display: inline-block;
+	animation: spin 10s linear infinite;
+  }
+
+/* TABLET BUT NOT REALLY */
+
+@media (min-width: 800px) {
+
+	main {
+		max-width: 120ch;
+		margin: auto;
+	}
+	
+
+	.all_articles {
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+
+	}
+
+	.article {
+		flex: 1;
+
+	}
+
+	.critique_text {
+		max-width: 50ch;
+		margin: auto;
+		padding: 4rem;
+	}
+	
+	/* DESKTOP */
+	
+	@media (min-width: 1080px) {
+	
+	}
+}
