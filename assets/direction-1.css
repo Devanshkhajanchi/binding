@@ -4,7 +4,6 @@
 
 body {
 	background-color: #AAF600;
-	overflow: hidden;
 }
 
 .all_articles {
@@ -115,6 +114,25 @@ footer {
 	font-size: 0.8rem;
 	font-optical-sizing: auto;
 	font-variation-settings: "wdth" 80;
+}
+
+/* TABLET BUT NOT REALLY */
+
+@media (min-width: 800px) {
+
+main {
+	max-width: 85ch;
+}
+
+	.all_articles {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.article {
+		flex: 1;
+	}
+
 }
 
 /* DESKTOP */
