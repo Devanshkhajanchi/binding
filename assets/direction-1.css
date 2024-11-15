@@ -6,6 +6,10 @@ body {
 	background-color: #AAF600;
 }
 
+.d2 {
+	display: none;
+}
+
 .all_articles {
 	display: flex;
 	flex-direction: column;
