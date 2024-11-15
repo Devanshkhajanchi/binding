@@ -4,26 +4,42 @@
 
 body {
 	background-color: #AAF600;
-	max-width: 35ch;
 	overflow: hidden;
+}
 
-	.all_articles {
-		display: flex;
-		flex-direction: column;
-	}
+.all_articles {
+	display: flex;
+	flex-direction: column;
+}
 
-	.article{
-		background-color: #FB01F1;
-		border: #1E2513 solid 0.5rem;
-		padding: 1rem;
-	}
+.author {
+	font-size: 0.5rem;
+	font-weight: 200;
+	color: white;
+}
 
-	.critique_button{
-		background-color: #FB01F1;
-		border: #1E2513 solid 0.5rem;
-		text-align: center;
-		padding: 1rem;
-	}
+.critique_text p {
+	text-align: center;
+	padding: 1rem;
+}
+
+.critique_button{
+	background-color: #FB01F1;
+	border: #1E2513 solid 0.5rem;
+	text-align: center;
+	padding: 1rem;
+}
+
+.article {
+	background-color: #FB01F1;
+	border: #1E2513 solid 0.5rem;
+	padding: 1rem;
+}
+
+.article p {
+	font-size: 1.5rem;
+	font-weight: 600;
+	font-variation-settings: "wdth" 85;
 }
 
 .emblem{
@@ -35,34 +51,70 @@ body {
 header {
 	font-size: 5rem;
 	font-weight: bold;
-	font-variation-settings: "wdth" 80;
-	line-height: 5rem;
+	font-optical-sizing: auto;
+	font-variation-settings: "wdth" 75;
+	line-height: 4rem;
+	text-align: center;
 	background-color: #1E2513;
 	color: #FB01F1;
 	padding: 1rem;
 }
 
 .banners {
-	overflow: hidden;
-	p {
-		color: #A0E800;
-		font-size: 4rem;
-		font-weight: 800;
-	}
+	overflow:hidden;
+}
+
+.banners p {
+	font-optical-sizing: auto;
+	font-variation-settings: "wdth" 75;
+	line-height: 4rem;
+	color: #A0E800;
+	font-size: 5rem;
+	font-weight: 800;
+}
+
+.odd {
+	position: relative;
+	right: 2rem;
+}
+
+.even {
+	position: relative;
+	right: 6rem;
+}
+
+main {
+	max-width: 35ch;
+	margin: auto;
 }
 
 footer {
+	margin-top: 2rem;
 	background-color: #1E2513;
 	color: white;
 	padding: 1rem;
+}
 
-	.identity {
-		display: flex;
-	}
+.identity {
+	display: flex;
+}
 
-	.footerinfo {
-		display: flex;
-	}
+.course_name {
+	font-size: 1.5rem;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-variation-settings: "wdth" 80;
+}
+
+.footerinfo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footerinfo p {
+	font-size: 0.8rem;
+	font-optical-sizing: auto;
+	font-variation-settings: "wdth" 80;
 }
 
 /* DESKTOP */
