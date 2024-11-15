@@ -1,3 +1,18 @@
-body {
-	color: blue;
-}
+@font-face {
+	font-family: 'YourCustomFont'; /* Name your font */
+	src: url('../fonts/your-font.woff2') format('woff2'), /* Modern format */
+		 url('../fonts/your-font.woff') format('woff'), /* Fallback */
+		 url('/Users/devansh/Documents/Parsons/Classes/Typography and Interaction/binding/assets/Gladiator Display 1.2.otf') format('opentype');
+  }
+
+  .banners {
+	display: none;
+  }
+
+  h2 {
+	display: none;
+  }
+
+  .sign {
+	display: none;
+  }

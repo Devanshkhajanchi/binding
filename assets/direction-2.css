@@ -72,6 +72,8 @@ main {
 h2 {
 	font-size: 4rem;
 	padding: 2rem;
+	margin-top: 2rem;
+	text-align: center;
 }
 
 footer {
@@ -158,3 +160,4 @@ footer {
 	@media (min-width: 1080px) {
 	
 	}
+}
