@@ -1,3 +1,72 @@
+:root {
+	font-family: "bricolage grotesque";
+}
+
 body {
-	color: red;
+	background-color: #AAF600;
+	max-width: 35ch;
+	overflow: hidden;
+
+	.all_articles {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.article{
+		background-color: #FB01F1;
+		border: #1E2513 solid 0.5rem;
+		padding: 1rem;
+	}
+
+	.critique_button{
+		background-color: #FB01F1;
+		border: #1E2513 solid 0.5rem;
+		text-align: center;
+		padding: 1rem;
+	}
+}
+
+.emblem{
+	position: relative;
+	bottom: 5rem;
+	text-align: center;
+}
+
+header {
+	font-size: 5rem;
+	font-weight: bold;
+	font-variation-settings: "wdth" 80;
+	line-height: 5rem;
+	background-color: #1E2513;
+	color: #FB01F1;
+	padding: 1rem;
+}
+
+.banners {
+	overflow: hidden;
+	p {
+		color: #A0E800;
+		font-size: 4rem;
+		font-weight: 800;
+	}
+}
+
+footer {
+	background-color: #1E2513;
+	color: white;
+	padding: 1rem;
+
+	.identity {
+		display: flex;
+	}
+
+	.footerinfo {
+		display: flex;
+	}
+}
+
+/* DESKTOP */
+
+@media (min-width: 1080px) {
+
 }
