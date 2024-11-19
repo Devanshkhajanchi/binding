@@ -10,6 +10,10 @@ body {
 	display: none;
 }
 
+.sign {
+	font-size: ;
+}
+
 .all_articles {
 	display: flex;
 	flex-direction: column;
@@ -89,6 +93,10 @@ header {
 main {
 	max-width: 35ch;
 	margin: auto;
+}
+
+h1 {
+	display: none;
 }
 
 h2 {

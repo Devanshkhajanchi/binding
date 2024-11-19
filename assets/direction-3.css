@@ -1,32 +1,36 @@
 @font-face {
-	font-family: 'Gladiator'; /* Name your font */
+	font-family: 'Gladiator';
 	src: url('gladiator.otf') format('opentype');
-  }
+}
 
-  .banners {
+.banners {
 	display: none;
-  }
+}
 
-  body {
+body {
 	font-family: 'Gladiator', fantasy;
-  }
+}
 
-  h2 {
-	display: none;
-  }
+h1 {
+	font-size: 3rem;
 
-  .sign {
+}
+
+h2 {
 	display: none;
-  }
+}
+
+.sign {
+	display: none;
+}
 
   header {
-	background-color: #B9B499;
+	background-color: red;
 	padding: 1rem;
 	/* height: 100vh; */
 
 	.sign {
-		color: #DBD8D0;
-		letter-spacing: -0.8rem;
+		display: none;
 	}
 }
 
@@ -36,12 +40,13 @@ header p {
 	letter-spacing: -0.1rem;
 }
 
+.d1 {
+ display: none;
+}
+
+
 .d2 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	/* justify-content: space-between; */
-	gap: 10rem;
+	display: none;
 }
 
 .all_articles {
@@ -60,8 +65,8 @@ header p {
 }
 
 .critique_button {
-	background-color: #391A17;
-	color: #B9B499;
+	background-color: grey;
+	color: darkgrey;
 	text-align: center;
 	padding: 1.5rem;
 	max-width: fit-content;
@@ -81,7 +86,7 @@ h2 {
 }
 
 footer {
-	background-color: #B9B499;
+	background-color: darkgrey;
 	margin-top: 2rem;
 }
 
@@ -112,7 +117,7 @@ footer {
 }
 
 .coloured_letters {
-	color: #B73023;
+	color: #red;
 }
 
 @keyframes spin {

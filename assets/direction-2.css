@@ -26,6 +26,10 @@ header {
 	}
 }
 
+h1 {
+	display: none;
+}
+
 header p {
 	font-size: 5rem;
 	text-align: center;
