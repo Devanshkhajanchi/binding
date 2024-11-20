@@ -1,0 +1,80 @@
+:root {
+	font-family: "bricolage grotesque";
+}
+
+@font-face {
+	font-family: 'Gladiator';
+	src: url('gladiator.otf') format('opentype');
+}
+
+header {
+	background-color: #1E2513;
+}
+
+/* HOME SECTION ONE */
+
+#home-section-one {
+	background-color: #AAF600;
+}
+
+.moving-banners {
+	color: #A4ED00;
+	font-family: "Gladiator";
+	overflow: hidden;
+}
+
+/* HOME SECTION TWO */
+
+#home-section-two {
+	background-color: white;
+}
+
+.all-articles {
+	display: flex;
+	flex-direction: column;
+}
+
+.article-box {
+	background-color: #FB01F1;
+	border: #0F210B solid 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 1rem;
+
+	p {
+		color: white;
+	}
+}
+
+/* HOME SECTION THREE */
+
+#home-section-three {
+	background-color: #AAF600;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	background-color: #1E2513;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-info {
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.identity {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-list {
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
