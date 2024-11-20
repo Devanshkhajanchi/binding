@@ -9,6 +9,41 @@
 
 header {
 	background-color: #1E2513;
+	padding: 1rem;
+
+	.site-name {
+		color: #FB01F1;
+		font-size: 5rem;
+		line-height: 4rem;
+		text-align: center;
+		font-weight: 700;
+		font-variation-settings: "wdth" 75;
+		font-optical-sizing: auto;
+	}
+}
+
+h2 {
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 600;
+	font-variation-settings: "wdth" 75;
+	font-optical-sizing: auto;
+}
+
+h3 {
+	font-size: 1.75rem;
+	font-weight: 400;
+	font-variation-settings: "wdth" 75;
+	font-optical-sizing: auto;
+}
+
+button {
+	text-align: center;
+	background-color: #FB01F1;
+	border: #0F210B solid 0.5rem;
+	padding: 1rem;
+	max-width: fit-content;
+	margin: auto;
 }
 
 /* HOME SECTION ONE */
@@ -20,43 +55,79 @@ header {
 .moving-banners {
 	color: #A4ED00;
 	font-family: "Gladiator";
+	font-size: 4rem;
+	line-height: 4rem;
 	overflow: hidden;
 }
 
 /* HOME SECTION TWO */
 
 #home-section-two {
+	padding: 1rem;
+	padding-top: 3rem;
+	max-width: 45ch;
+	margin: auto;
 	background-color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+}
+
+.subsection-articles {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 .all-articles {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 	display: flex;
 	flex-direction: column;
 }
 
 .article-box {
 	background-color: #FB01F1;
+	height: 13rem;
 	border: #0F210B solid 0.5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 1rem;
+	padding: 1rem;
 
 	p {
 		color: white;
 	}
 }
 
+.subsection-web-info {
+
+	p {
+		line-height: 1.5rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+}
+
 /* HOME SECTION THREE */
 
 #home-section-three {
+	padding: 1rem;
 	background-color: #AAF600;
 	display: flex;
 	flex-direction: column;
+
+	p {
+		padding: 1rem;
+		max-width: 45ch;
+		margin: auto;
+	}
 }
 
 footer {
 	background-color: #1E2513;
+	padding: 1rem;
 	display: flex;
 	flex-direction: column;
 }
@@ -77,4 +148,16 @@ footer {
 	color: white;
 	display: flex;
 	flex-direction: column;
+}
+
+/* TABLET BUT NOT REALLY */
+
+@media (min-width: 800px) {
+
+}
+
+/* DESKTOP */
+
+@media (min-width: 1080px) {
+
 }
