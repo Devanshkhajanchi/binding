@@ -7,6 +7,8 @@
 	src: url('gladiator.otf') format('opentype');
 }
 
+
+
 header {
 	background-color: #1E2513;
 	padding: 1rem;
@@ -20,6 +22,11 @@ header {
 		font-variation-settings: "wdth" 75;
 		font-optical-sizing: auto;
 	}
+}
+
+h1 {
+	font-size: 5rem;
+	text-align: center;
 }
 
 h2 {
@@ -58,6 +65,7 @@ button {
 	font-size: 4rem;
 	line-height: 4rem;
 	overflow: hidden;
+
 }
 
 /* HOME SECTION TWO */
@@ -65,8 +73,8 @@ button {
 #home-section-two {
 	padding: 1rem;
 	padding-top: 3rem;
-	max-width: 45ch;
-	margin: auto;
+	/* max-width: 45ch; */
+	/* margin: auto; */
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -84,6 +92,8 @@ button {
 	margin-bottom: 1rem;
 	display: flex;
 	flex-direction: column;
+	max-width: 45ch;
+	margin: auto;
 }
 
 .article-box {
@@ -101,13 +111,14 @@ button {
 	}
 }
 
-.subsection-web-info {
-
-	p {
-		line-height: 1.5rem;
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-	}
+.subsection-web-info p {
+	line-height: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	max-width: 45ch;
+	margin: auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 /* HOME SECTION THREE */
@@ -150,14 +161,62 @@ footer {
 	flex-direction: column;
 }
 
+/* ARTICLE PAGES */
+
+/* SUBSECTION ONE */
+
+.subsection-two {
+	display: flex;
+	flex-direction: column;
+}
+
 /* TABLET BUT NOT REALLY */
 
 @media (min-width: 800px) {
+
+	.all-articles {
+		flex-direction: row;
+		max-width: 85ch;
+		margin: auto;
+	}
+
+	.subsection-web-info p {
+		max-width: 65ch;
+		margin: auto;
+	}
 
 }
 
 /* DESKTOP */
 
 @media (min-width: 1080px) {
+
+	header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		height: fit-content;
+	}
+
+	.moving-banners {
+		font-size: 5rem;
+		line-height: 5.5rem;
+	}
+
+	.navigation-buttons {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 8rem;
+	}
+
+	.navigation-buttons li {
+		color: #FB01F1;
+		font-size: 3rem;
+		font-weight: 600;
+		font-variation-settings: "wdth" 85;
+		font-optical-sizing: auto;
+	}
 
 }
