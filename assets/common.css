@@ -7,6 +7,28 @@
 	src: url('gladiator.otf') format('opentype');
 }
 
+@keyframes banners-animation-odd {
+	0% {
+		margin-left: -200px;
+	}
+
+	100% {
+		margin-left: 200px;
+		
+	}
+}
+
+@keyframes banners-animation-even {
+	0% {
+		margin-left: -200px;
+	}
+
+	100% {
+		margin-left: 200px;
+		
+	}
+}
+
 
 
 header {
@@ -86,6 +108,9 @@ button {
 	font-size: 4rem;
 	line-height: 4rem;
 	overflow: hidden;
+	animation-name: banners-animation-odd;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
 
 }
 
@@ -114,7 +139,7 @@ button {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	display: grid;
-	grid-template-column: 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	gap: 0.5rem;
 	flex-direction: column;
