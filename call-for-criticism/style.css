@@ -1,0 +1,22 @@
+#foreword {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 1rem;
+	/* grid-template-rows: 1fr 1fr; */
+}
+
+#words-of-wisdom {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/* grid-template-rows: 1fr 1fr; */
+}
+
+#response {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/* grid-template-rows: 1fr 1fr; */
+}
+
+.paragraphs {
+	grid-column : span 2";
+}
