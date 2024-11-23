@@ -1,40 +1,77 @@
-#foreword {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	gap: 1rem;
+h1 {
+	font-size: 2.5rem;
+	max-width: 18ch;
+	font-weight: 600;
+	font-variation-settings: "wdth" 85;
+	font-optical-sizing: auto;
+}
 
-	div {
+blockquote {
+	font-size: 3rem;
+}
+
+@media (min-width: 800px) {
+
+	h1 {
+		font-size: 3rem;
+		max-width: 20ch;
+		font-weight: 600;
+		font-variation-settings: "wdth" 85;
+		font-optical-sizing: auto;
+	}
+
+	.main-article {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		gap: 1rem;
+
+	}
+
+	h2 {
+		grid-column: 2;
+		text-align: left;
+	}
+
+	.paragraphs {
 		grid-column: 3/5;
+	} 
+}
+
+@media (min-width: 1080px) {
+
+	h1 {
+		font-size: 4rem;
+		max-width: 20ch;
+		font-weight: 600;
+		font-variation-settings: "wdth" 85;
+		font-optical-sizing: auto;
+	}
+
+	.main-article {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		gap: 1rem;
+
+	}
+
+	h2 {
+		grid-column: 2;
+		text-align: left;
+	}
+
+	.paragraphs {
+		font-size: 1.5rem;
+		font-weight: 300;
+		font-variation-settings: "wdth" 100;
+		font-optical-sizing: auto;
+		line-height: 2.25rem;
+		grid-column: 3/5;
+		max-width: 65ch;
+	}
+
+	.paragraphs p {
+		padding-bottom: 2rem;
 	}
 }
-
-
-#words-of-wisdom {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	gap: 1rem;
-
-	div {
-		grid-column: 3/5;
-	}
-}
-
-#response {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	gap: 1rem;
-
-	div {
-		grid-column: 3/5;
-	}
-}
-
-/* .paragraphs {
-	grid-column : span 2";
-} */
-
-h2 {
-	grid-column: 2;
-	text-align: left;
-}
-

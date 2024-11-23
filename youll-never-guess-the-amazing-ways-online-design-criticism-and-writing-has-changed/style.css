@@ -6,6 +6,10 @@ h1 {
 	font-optical-sizing: auto;
 }
 
+blockquote {
+	font-size: 3rem;
+}
+
 @media (min-width: 800px) {
 
 	h1 {
@@ -58,7 +62,16 @@ h1 {
 	}
 
 	.paragraphs {
+		font-size: 1.5rem;
+		font-weight: 300;
+		font-variation-settings: "wdth" 100;
+		font-optical-sizing: auto;
+		line-height: 2.25rem;
 		grid-column: 3/5;
 		max-width: 65ch;
-	} 
+	}
+
+	.paragraphs p {
+		padding-bottom: 2rem;
+	}
 }

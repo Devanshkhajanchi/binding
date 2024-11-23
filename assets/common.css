@@ -215,11 +215,18 @@ footer {
 
 /* ARTICLE PAGES */
 
-/* SUBSECTION ONE */
-
-.subsection-two {
-	display: flex;
+.suggested-articles {
+	border: #0F210B solid 0.5rem;
+	background-color: #0F210B;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 0.5rem;
 	flex-direction: column;
+	max-width: 45ch;
+	margin: auto;
 }
 
 /* TABLET BUT NOT REALLY */
