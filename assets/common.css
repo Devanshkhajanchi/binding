@@ -73,9 +73,14 @@ h3 {
 .nav-identity {
 	color: white;
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 800;
 	/* font-variation-settings: "wdth" 75; */
 	font-optical-sizing: auto;
+}
+
+.mark-styling {
+	display: inline-block;
+	transform: translateY(-0.3rem)
 }
 
 #title-overlay {
@@ -206,9 +211,46 @@ button {
 
 footer {
 	background-color: #1E2513;
-	padding: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	display: flex;
 	flex-direction: column;
+	gap: 2rem;
+}
+
+.footer-mark {
+	color: #FB01F1;
+	font-size: 3rem;
+	font-weight: 800;
+	/* font-variation-settings: "wdth" 75; */
+	font-optical-sizing: auto;
+}
+
+.identity-text {
+	font-size: 1.5rem;
+	line-height: 1.2rem;
+	/* letter-spacing: 0.02rem; */
+	font-weight: 600;
+	font-variation-settings: "wdth" 75;
+	font-optical-sizing: auto;
+}
+
+.course-name {
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	text-align: right;
+	font-weight: 600;
+	font-variation-settings: "wdth" 75;
+	font-optical-sizing: auto;
+}
+
+.identity {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.4rem;
 }
 
 .footer-info {
