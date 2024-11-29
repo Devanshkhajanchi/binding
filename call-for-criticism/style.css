@@ -23,8 +23,9 @@ blockquote {
 	.main-article {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(3, 1fr);
+		/* grid-template-rows: repeat(3, 1fr); */
 		gap: 1rem;
+		row-gap: 2rem;
 
 	}
 
@@ -51,8 +52,9 @@ blockquote {
 	.main-article {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(3, 1fr);
+		/* grid-template-rows: repeat(3, 1fr); */
 		gap: 1rem;
+		row-gap: 2rem;
 
 	}
 
