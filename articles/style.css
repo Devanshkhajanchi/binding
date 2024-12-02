@@ -1,0 +1,152 @@
+/* RANDOM ARTICLE SECTION */
+
+#home-section-two {
+	padding: 1rem;
+	padding-top: 3rem;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+}
+
+.subsection-articles {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.all-articles {
+	border: #0F210B solid 0.5rem;
+	background-color: #0F210B;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 0.5rem;
+	flex-direction: column;
+	max-width: 45ch;
+	margin: auto;
+}
+
+.article-box {
+	background-color: #FB01F1;
+	/* height: fit-content; */
+	min-height: 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 1rem;
+
+	p {
+		color: white;
+	}
+}
+
+#article-one {
+	
+}
+
+#article-two {
+	background-color: #EDE716;	
+}
+
+#article-three {
+	background-color: #6583FC;	
+}
+
+.subsection-web-info p {
+	line-height: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	max-width: 45ch;
+	margin: auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.cc, .ss, .dw {
+	font-family: "gladiator";
+	font-size: 10rem;
+	text-align: center;
+}
+
+/* TABLET BUT NOT REALLY */
+
+@media (min-width: 800px) {
+
+	.all-articles {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+		flex-direction: row;
+		max-width: 85ch;
+		margin: auto;
+	}
+
+	.subsection-web-info p {
+		max-width: 65ch;
+		margin: auto;
+	}
+
+	#home-section-three p {
+		max-width: 65ch;
+		margin: auto;
+	}
+
+	.suggested-articles {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		flex-direction: row;
+		max-width: 85ch;
+		margin: auto;
+	}
+
+	.footer-list {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+/* DESKTOP */
+
+@media (min-width: 1080px) {
+
+	header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		height: fit-content;
+	}
+
+	.moving-banners {
+		font-size: 5rem;
+		line-height: 5.5rem;
+	}
+
+	.navigation-buttons {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 8rem;
+	}
+
+	.navigation-buttons li {
+		color: #FB01F1;
+		font-size: 3rem;
+		font-weight: 600;
+		font-variation-settings: "wdth" 85;
+		font-optical-sizing: auto;
+	}
+
+	.all-articles {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+		flex-direction: row;
+		max-width: 120ch;
+		margin: auto;
+	}
+
+}

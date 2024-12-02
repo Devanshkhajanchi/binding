@@ -83,7 +83,7 @@ h3 {
 	transform: translateY(-0.3rem)
 }
 
-#title-overlay {
+/* #title-overlay {
 	flex-direction: column;
 	position: absolute;
 	display: flex;
@@ -93,7 +93,7 @@ h3 {
 	left: 0;
 	height: 100%;
 	width: 100%;
-}
+} */
 
 button {
 	text-align: center;
@@ -104,18 +104,22 @@ button {
 	margin: auto;
 }
 
-/* HOME SECTION ONE */
+/* BANNER SECTION */
 
 #home-section-one {
 	background-color: #AAF600;
 	position: relative;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .odd {
 	color: #A4ED00;
-	font-family: "Gladiator";
 	font-size: 4rem;
 	line-height: 4rem;
+	font-weight: 800;
+	font-variation-settings: "wdth" 75;
+	font-optical-sizing: auto;
 	overflow: hidden;
 	animation-name: banners-animation-odd;
 	animation-duration: 10s;
@@ -125,9 +129,11 @@ button {
 
 .even {
 	color: #A4ED00;
-	font-family: "Gladiator";
 	font-size: 4rem;
 	line-height: 4rem;
+	font-weight: 600;
+	/* font-variation-settings: "wdth" 75; */
+	font-optical-sizing: auto;
 	overflow: hidden;
 	animation-name: banners-animation-even;
 	animation-duration: 10s;
@@ -135,7 +141,20 @@ button {
 
 }
 
-/* HOME SECTION TWO */
+/* DO BETTER SECTION */
+
+#do-better {
+	background-color: #0F210B;
+	p {
+		font-family: "gladiator";
+		font-size: 12rem;
+		color: #FB01F1;
+		text-align: center;
+		padding-top: 2rem;
+	}
+}
+
+/* RANDOM ARTICLE SECTION */
 
 #home-section-two {
 	padding: 1rem;
@@ -147,8 +166,9 @@ button {
 }
 
 .subsection-articles {
-	display: flex;
-	flex-direction: column;
+	/* display: flex;
+	flex-direction: column; */
+	
 	gap: 2rem;
 }
 
@@ -191,10 +211,12 @@ button {
 }
 
 /* ARTICLES */
+/* COMMON */
 
 
 
-/* HOME SECTION THREE */
+
+/* CRITIQUE BUTTON SECTION */
 
 #home-section-three {
 	padding: 1rem;
@@ -208,6 +230,8 @@ button {
 		margin: auto;
 	}
 }
+
+/* FOOTER */
 
 footer {
 	background-color: #1E2513;
