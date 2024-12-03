@@ -30,7 +30,6 @@
 }
 
 .article-box {
-	background-color: #FB01F1;
 	/* height: fit-content; */
 	min-height: 30rem;
 	display: flex;
@@ -40,12 +39,18 @@
 	padding: 1rem;
 
 	p {
-		color: white;
+		color: black;
 	}
 }
 
+.cc, .ss, .dw {
+	font-family: "gladiator";
+	font-size: 10rem;
+	text-align: center;
+}
+
 #article-one {
-	
+	background-color: #FB01F1;
 }
 
 #article-two {
@@ -66,11 +71,7 @@
 	padding-bottom: 1rem;
 }
 
-.cc, .ss, .dw {
-	font-family: "gladiator";
-	font-size: 10rem;
-	text-align: center;
-}
+
 
 /* TABLET BUT NOT REALLY */
 
@@ -150,3 +151,5 @@
 	}
 
 }
+
+
