@@ -3,10 +3,7 @@ let titleBox = document.getElementById("title");
 let articleAuthor = document.getElementById("author");
 let initials = document.getElementById("initials")
 let articleBackground = document.getElementById("articles")
-
-
 let articleNum = Math.floor(Math.random()*3) + 1
-
 
 if(articleNum==1){
 	articleLink.href = "call-for-criticism/index.html"
@@ -14,7 +11,8 @@ if(articleNum==1){
 	articleAuthor.innerHTML = 'Massimo Vignelli, 1983'
 	initials.innerHTML = 'CC'
 	articleBackground.style.backgroundColor = "#FB01F1"
-} 
+}
+
 else if (articleNum==2){
 	titleBox.innerHTML = 'Graphic Design Criticism as a Spectator Sport.'
 	articleLink.href = "graphic-design-criticism-as-a-spectator-sport/index.html"
@@ -22,6 +20,7 @@ else if (articleNum==2){
 	initials.innerHTML = 'SS'
 	articleBackground.style.backgroundColor = "#EDE716"
 }
+
 else {
 	titleBox.innerHTML = 'You’ll Never Guess the Amazing Ways Online Design Writing and Criticism Has Changed.'
 
