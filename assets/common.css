@@ -42,10 +42,6 @@ header {
 	}
 }
 
-#articles{
-
-}
-
 h1 {
 	font-size: 5rem;
 	text-align: center;
@@ -160,20 +156,33 @@ button {
 
 /* RANDOM ARTICLE SECTION */
 
-#home-section-two {
+/* #home-section-two {
 	padding: 1rem;
 	padding-top: 3rem;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
 	gap: 4rem;
+} */
+
+#subsection-articles {
+	max-width: 35ch;
+
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	/* gap: 1rem; */
 }
 
-.subsection-articles {
-	/* display: flex;
-	flex-direction: column; */
+#articles {
+	border: #0F210B solid 0.5rem;
+	padding: 1rem;
+}
 
-	gap: 2rem;
+#initials {
+	font-family: 'gladiator';
+	font-size: 10rem;
+	text-align: center;
 }
 
 .all-articles {
