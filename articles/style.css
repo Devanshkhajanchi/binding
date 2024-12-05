@@ -1,3 +1,13 @@
+
+
+li:hover {
+	color: #AAF600;
+}
+
+.button-active-state {
+	color: white;
+}
+
 /* RANDOM ARTICLE SECTION */
 
 #home-section-two {

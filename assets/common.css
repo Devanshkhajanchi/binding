@@ -55,6 +55,10 @@ ul {
 	padding-right: 2rem;
 }
 
+.button-active-state {
+	color: white;
+}
+
 .navigation-buttons li {
 	color: #FB01F1;
 	font-size: 1.5rem;
@@ -98,17 +102,9 @@ h3 {
 	transform: translateY(-0.3rem)
 }
 
-/* #title-overlay {
-	flex-direction: column;
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-} */
+.highlighted-link {
+	color: #FB01F1;
+}
 
 button {
 	display: flex;
@@ -130,7 +126,7 @@ button {
 }
 
 .odd {
-	color: #A4ED00;
+	color: white;
 	font-size: 4rem;
 	line-height: 4rem;
 	font-weight: 800;
@@ -140,21 +136,19 @@ button {
 	animation-name: banners-animation-odd;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
-
 }
 
 .even {
-	color: #A4ED00;
+	color: white;
 	font-size: 4rem;
 	line-height: 4rem;
-	font-weight: 600;
-	/* font-variation-settings: "wdth" 75; */
+	font-weight: 800;
+	font-variation-settings: "wdth" 75;
 	font-optical-sizing: auto;
 	overflow: hidden;
 	animation-name: banners-animation-even;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
-
 }
 
 /* DO BETTER SECTION */
@@ -372,6 +366,10 @@ footer {
 
 	.navigation-buttons li {
 		font-size: 3rem;
+	}
+
+	li:hover {
+		color: #AAF600;
 	}
 
 	#do-better {

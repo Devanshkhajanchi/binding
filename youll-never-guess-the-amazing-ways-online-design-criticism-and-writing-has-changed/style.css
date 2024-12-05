@@ -10,6 +10,8 @@ blockquote {
 	font-size: 3rem;
 }
 
+
+
 @media (min-width: 800px) {
 
 	h1 {
@@ -23,7 +25,6 @@ blockquote {
 	.main-article {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(5, 1fr);
 		gap: 1rem;
 
 	}
@@ -51,7 +52,7 @@ blockquote {
 	.main-article {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(5, 1fr);
+		/* grid-template-rows: repeat(5, 1fr); */
 		gap: 1rem;
 
 	}

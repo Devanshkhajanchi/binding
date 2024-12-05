@@ -1,0 +1,52 @@
+
+
+.subsection-about {
+	max-width: 30ch;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.type-sample {
+	font-size: 3rem;
+}
+
+/* TABLET BUT NOT REALLY */
+
+@media (min-width: 800px) {
+	.subsection-about {
+		max-width: 100ch;
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		gap: 1rem;
+	}
+}
+
+h2 {
+	grid-column: 2;
+	text-align: left;
+}
+
+h3 {
+	grid-column: 2;
+	text-align: left;
+}
+
+.paragraphs {
+	grid-column: 3/5;
+} 
+
+.paragraphs p {
+	padding-bottom: 2rem;
+}
+
+details{
+	grid-column: 3/5;
+}
+
+/* DESKTOP */
+
+@media (min-width: 800px) {
+
+}
