@@ -6,6 +6,10 @@ h1 {
 	font-optical-sizing: auto;
 }
 
+p {
+	margin-bottom: 1rem;
+}
+
 .graphic-text {
 	background-color: #6583FC;
 }

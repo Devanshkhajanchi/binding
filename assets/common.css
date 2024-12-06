@@ -99,6 +99,7 @@ h3 {
 	letter-spacing: -0.2rem;
 	/* font-variation-settings: "wdth" 75; */
 	font-optical-sizing: auto;
+	white-space: nowrap;
 }
 
 .nav-mark-styling {
@@ -285,6 +286,25 @@ button {
 	margin-bottom: 3rem;
 }
 
+/* END OF PAGE SUGGESTED ARTICLES */
+
+.initials {
+	font-family: 'gladiator';
+	text-align: center;
+	font-size: 5rem;
+}
+#article-one {
+	background-color: #FB01F1;
+}
+
+#article-two {
+	background-color: #EDE716;
+}
+
+#article-three {
+	background-color: #6583FC;
+}
+
 /* CRITIQUE BUTTON SECTION */
 
 #home-section-three {
@@ -380,6 +400,9 @@ footer {
 	flex-direction: column;
 	max-width: 45ch;
 	margin: auto;
+	p {
+		color: black;
+	}
 }
 
 /* TABLET BUT NOT REALLY */
@@ -429,6 +452,9 @@ footer {
 		flex-direction: row;
 		max-width: 85ch;
 		margin: auto;
+		p {
+			color: black;
+		}
 	}
 
 	.main-article {
