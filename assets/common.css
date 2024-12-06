@@ -3,15 +3,16 @@
 /* TYPE */
 
 	font-family: "bricolage grotesque";
+	--secondary-typeface: 'gladiator';
+
+/* COLOR */
+
 	--primary-color: #AAF600;
 	--secondary-color: #1E2513;
 	--article-one-color: #FB01F1;
 	--article-two-color: #EDE716;
 	--article-three-color: #6583FC;
 
-/* COLOR */
-
-	--secondary-typeface: 'gladiator';
 }
 
 @font-face {
@@ -298,9 +299,13 @@ button {
 	display: flex;
 	justify-content: space-between;
 	gap: 2rem;
+	p {
+		font-size: 1.2rem;
+	}
 }
 
 .article-subheadings {
+	font-size: 2rem;
 	height: 7rem;
 	align-content: center;
 	position: sticky;
@@ -311,10 +316,11 @@ button {
 .main-article {
 	display: flex;
 	flex-direction: column;
-	max-width: 35ch;
+	max-width: 45ch;
 	gap: 3rem;
 	margin: auto;
 	.paragraphs {
+		line-height: 1.4rem;
 		gap: 2rem;
 		margin: 1rem;
 	}
@@ -383,6 +389,7 @@ button {
 	flex-direction: column;
 
 	p {
+		font-size: 1.2rem;
 		padding: 1rem;
 		max-width: 45ch;
 		margin: auto;
@@ -625,6 +632,7 @@ footer {
 	}
 
 	.article-subheadings {
+		font-size: 2.27rem;
 		height: 20rem;
 		position: sticky;
 		align-content: start;

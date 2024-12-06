@@ -76,5 +76,6 @@ p {
 
 	.paragraphs p {
 		padding-bottom: 2rem;
+		line-height: 1.8rem;
 	}
 }
