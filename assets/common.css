@@ -258,10 +258,12 @@ button {
 .main-article {
 	display: flex;
 	flex-direction: column;
+	max-width: 35ch;
 	gap: 3rem;
 	margin: auto;
 	.paragraphs {
 		gap: 2rem;
+		margin: 1rem;
 	}
 }
 
@@ -419,9 +421,24 @@ footer {
 		margin: auto;
 	}
 
+	.main-article {
+		max-width: 120ch;
+		.paragraphs {
+			margin: 0;
+		}
+	}
+
 	.footer-list {
 		flex-direction: row;
 		justify-content: space-between;
+	}
+
+	.article-subheadings {
+		height: 15rem;
+		justify-items: top;
+		position: sticky;
+		background-color: white;
+		top: 0rem;
 	}
 
 }
