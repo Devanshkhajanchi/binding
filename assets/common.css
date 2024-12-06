@@ -161,6 +161,21 @@ button {
 	animation-iteration-count: infinite;
 }
 
+/* LANDING SECTION */
+
+#landing {
+	height: 50rem;
+	p {
+		font-family: 'gladiator';
+		font-size: 2rem;
+		line-height: 12rem;
+		text-align: center;
+		color: #FB01F1;
+		/* rotate: -90deg; */
+	}
+}
+
+
 /* RANDOM ARTICLE SECTION */
 
 
@@ -471,11 +486,12 @@ footer {
 
 	.article-subheadings {
 		height: 15rem;
-		justify-items: top;
 		position: sticky;
+		align-content: start;
 		background-color: white;
 		top: 0rem;
 	}
+
 
 }
 
@@ -516,6 +532,10 @@ footer {
 		flex-direction: row;
 		max-width: 120ch;
 		margin: auto;
+	}
+
+	.main-article {
+		max-width: 150ch;
 	}
 
 }
