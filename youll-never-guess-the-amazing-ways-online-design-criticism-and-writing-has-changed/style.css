@@ -11,7 +11,7 @@ p {
 }
 
 .graphic-text {
-	background-color: #6583FC;
+	background-color: var(--article-three-color);
 }
 
 blockquote {

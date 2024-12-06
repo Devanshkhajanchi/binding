@@ -1,5 +1,17 @@
 :root {
+
+/* TYPE */
+
 	font-family: "bricolage grotesque";
+	--primary-color: #AAF600;
+	--secondary-color: #1E2513;
+	--article-one-color: #FB01F1;
+	--article-two-color: #EDE716;
+	--article-three-color: #6583FC;
+
+/* COLOR */
+
+	--secondary-typeface: 'gladiator';
 }
 
 @font-face {
@@ -51,7 +63,7 @@ ul {
 }
 
 .navigation-buttons li {
-	color: #FB01F1;
+	color: var(--article-one-color);
 	font-size: 1.5rem;
 	font-weight: 600;
 	font-variation-settings: "wdth" 85;
@@ -91,7 +103,7 @@ h3 {
 }
 
 .nav-mark {
-	color: #FB01F1;
+	color: var(--article-one-color);
 	font-size: 6.5rem;
 	line-height: 4rem;
 	text-align: center;
@@ -119,7 +131,7 @@ h3 {
 button {
 	display: flex;
 	text-align: center;
-	background-color: #FB01F1;
+	background-color: var(--article-one-color);
 	border: #0F210B solid 0.5rem;
 	padding: 1rem;
 	max-width: fit-content;
@@ -129,7 +141,7 @@ button {
 /* BANNER SECTION */
 
 #home-section-one {
-	background-color: #AAF600;
+	background-color: var(--primary-color);
 	position: relative;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -164,15 +176,24 @@ button {
 /* LANDING SECTION */
 
 #landing {
-	height: 50rem;
-	p {
-		font-family: 'gladiator';
-		font-size: 2rem;
-		line-height: 12rem;
-		text-align: center;
-		color: #FB01F1;
-		/* rotate: -90deg; */
-	}
+	padding-top: 20rem;
+	padding-bottom: 20rem;
+	margin: auto;
+}
+.graphic-mark {
+	font-size: 15rem;
+	font-weight: 800;
+	line-height: 12rem;
+	text-align: center;
+	color: #FB01F1;
+}
+
+.landing-text {
+	font-size: 5rem;
+	font-weight: 800;
+	line-height: 5rem;
+	text-align: center;
+	color: #FB01F1;
 }
 
 
@@ -215,7 +236,7 @@ button {
 }
 
 .article-box {
-	background-color: #FB01F1;
+	background-color: var(--article-one-color);
 	height: 13rem;
 	display: flex;
 	flex-direction: column;

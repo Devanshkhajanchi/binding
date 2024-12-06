@@ -12,7 +12,7 @@ p {
 
 
 .graphic-text {
-	background-color: #FB01F1;
+	background-color: var(--article-one-color);
 }
 
 blockquote {

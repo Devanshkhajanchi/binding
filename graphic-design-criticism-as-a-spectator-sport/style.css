@@ -11,7 +11,7 @@ p {
 }
 
 .graphic-text {
-	background-color: #EDE716;
+	background-color: var(--article-two-color);
 }
 
 
