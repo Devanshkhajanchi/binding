@@ -6,18 +6,21 @@ h1 {
 	font-optical-sizing: auto;
 }
 
-p {
+/* p {
 	margin-bottom: 1rem;
-}
+} */
 
 .graphic-text {
 	background-color: var(--article-two-color);
 }
 
-
-blockquote {
-	font-size: 3rem;
+.article-subheadings {
+	color: rgb(255, 179, 0);
 }
+
+/* blockquote {
+	font-size: 3rem;
+} */
 
 @media (min-width: 800px) {
 

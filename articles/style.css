@@ -84,6 +84,10 @@ li a:hover {
 
 @media (min-width: 800px) {
 
+	.cc, .ss, .oc {
+		font-size: 8rem;
+	}
+
 	.all-articles {
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr;
@@ -132,6 +136,10 @@ li a:hover {
 	.moving-banners {
 		font-size: 5rem;
 		line-height: 5.5rem;
+	}
+
+	.cc, .ss, .oc {
+		font-size: 10rem;
 	}
 
 	.navigation-buttons {

@@ -6,12 +6,16 @@ h1 {
 	font-optical-sizing: auto;
 }
 
-p {
+/* p {
 	margin-bottom: 1rem;
-}
+} */
 
 .graphic-text {
 	background-color: var(--article-three-color);
+}
+
+.article-subheadings {
+	color: var(--article-three-color);
 }
 
 @media (min-width: 800px) {
