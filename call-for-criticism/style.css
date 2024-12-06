@@ -68,11 +68,11 @@ blockquote {
 	}
 
 	.paragraphs {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		font-weight: 300;
 		font-variation-settings: "wdth" 100;
 		font-optical-sizing: auto;
-		line-height: 2.25rem;
+		line-height: 2rem;
 		grid-column: 3/5;
 		max-width: 65ch;
 	}

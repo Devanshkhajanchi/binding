@@ -16,15 +16,6 @@
 	}
 }
 
-@keyframes banners-animation-even {
-	from {
-		transform: translateX(calc(-250px*7));
-	}
-	to {
-		transform: translateX(0);
-	}
-}
-
 /* STYLING */
 
 header {
@@ -38,8 +29,8 @@ header {
 
 	.site-name {
 		color: #FB01F1;
-		font-size: 5rem;
-		line-height: 4rem;
+		font-size: 3.25rem;
+		line-height: 2.75rem;
 		text-align: center;
 		font-weight: 700;
 		font-variation-settings: "wdth" 75;
@@ -90,11 +81,29 @@ h3 {
 	font-optical-sizing: auto;
 }
 
+/* NAV BAR */
+
 .nav-identity {
-	color: white;
-	font-size: 3rem;
-	font-weight: 800;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.nav-mark {
+	color: #FB01F1;
+	font-size: 6.5rem;
+	line-height: 4rem;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: -0.2rem;
+	/* font-variation-settings: "wdth" 75; */
 	font-optical-sizing: auto;
+}
+
+.nav-mark-styling {
+	display: inline-block;
+	transform: translateY(-0.7rem)
 }
 
 .mark-styling {
@@ -151,27 +160,17 @@ button {
 	animation-iteration-count: infinite;
 }
 
-/* DO BETTER SECTION */
-
-#do-better {
-	background-color: #0F210B;
-	p {
-		font-family: "gladiator";
-		font-size: 4rem;
-		color: #FB01F1;
-		text-align: center;
-		padding-top: 2rem;
-	}
-}
-
 /* RANDOM ARTICLE SECTION */
 
 
 #subsection-articles {
 	max-width: 35ch;
 	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
 	display: flex;
 	flex-direction: column;
+	gap: 2rem;
 }
 
 #articles {
@@ -213,11 +212,19 @@ button {
 	}
 }
 
+#web-info {
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
 .subsection-web-info p {
 	line-height: 1.5rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	max-width: 45ch;
+	max-width: 40ch;
 	margin: auto;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -240,6 +247,14 @@ button {
 	gap: 2rem;
 }
 
+.article-subheadings {
+	height: 7rem;
+	align-content: center;
+	position: sticky;
+	background-color: white;
+	top: 0rem;
+}
+
 .main-article {
 	display: flex;
 	flex-direction: column;
@@ -255,6 +270,7 @@ button {
 .article-graphic{
 	margin: 1rem;
 }
+
 .graphic-text {
 	font-family: 'gladiator';
 	font-size: 12rem;
@@ -263,11 +279,14 @@ button {
 	max-width: 30rem;
 	padding-top: 2rem;
 	margin:auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 /* CRITIQUE BUTTON SECTION */
 
 #home-section-three {
+	text-align: center;
 	padding: 1rem;
 	background-color: #AAF600;
 	display: flex;
@@ -371,13 +390,7 @@ footer {
 
 	li:hover {
 		color: #AAF600;
-	}
-
-	#do-better {
-		p {
-			font-size: 7rem;
-			padding-top: 2rem;
-		}
+		cursor: pointer;
 	}
 
 	.all-articles {
@@ -443,8 +456,6 @@ footer {
 		justify-content: space-between;
 		gap: 8rem;
 	}
-
-	
 
 	.all-articles {
 		grid-template-columns: 1fr 1fr 1fr;

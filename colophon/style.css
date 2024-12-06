@@ -1,5 +1,16 @@
+h2 {
+	height: 5rem;
+	background-color: white;
+	position: sticky;
+	top: 1rem;
+}
+
 h3 {
 	margin-bottom: 2rem;
+}
+
+#about-main {
+	margin-top: 2rem;
 }
 
 .subsection-about {
@@ -15,7 +26,14 @@ h3 {
 	text-align: center;
 }
 
-.glyphs {
+.bricolage-glyphs {
+	display: flex;
+	flex-direction:column;
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.gladiator-glyphs {
 	display: flex;
 	flex-direction:column;
 	gap: 2rem;
@@ -25,13 +43,14 @@ h3 {
 summary {
 	font-size: 1.5rem;
 	font-variation-settings: "wdth" 85;
+	cursor: pointer;
 	list-style-type: "+";
 	list-style-position: inside;
 	text-align: center;
 }
 
-details [open] > summary {
-	list-style-type: "-";
+details[open] > summary {
+	list-style-type: "−";
 	list-style-position: open;
 }
 
@@ -50,11 +69,22 @@ details [open] > summary {
 		text-align: left;
 	}
 
-	.glyphs {
+	.bricolage-glyphs {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
-		grid-template-rows: 1fr 1fr;
+		/* grid-template-rows: 1fr 1fr; */
+		grid-column: 3 / span 2;
+	}
+
+	.gladiator-glyphs {
+		p {
+			font-family: 'gladiator';
+		}
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+		/* grid-template-rows: 1fr 1fr; */
 		grid-column: 3 / span 2;
 	}
 
