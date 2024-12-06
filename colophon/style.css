@@ -38,6 +38,9 @@ h3 {
 }
 
 .gladiator-glyphs {
+	p {
+		font-family: 'gladiator';
+	}
 	display: flex;
 	flex-direction:column;
 	gap: 2rem;
