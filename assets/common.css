@@ -252,16 +252,17 @@ button {
 
 /* ARTICLE GRAPHICS */
 
-
+.article-graphic{
+	margin: 1rem;
+}
 .graphic-text {
 	font-family: 'gladiator';
 	font-size: 12rem;
 	text-align: center;
 	border: #0F210B solid 0.5rem;
-	align-items: center;
-	max-width: 25rem;
+	max-width: 30rem;
 	padding-top: 2rem;
-	margin: auto;
+	margin:auto;
 }
 
 /* CRITIQUE BUTTON SECTION */

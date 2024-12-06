@@ -6,6 +6,10 @@ h1 {
 	font-optical-sizing: auto;
 }
 
+.graphic-text {
+	background-color: #EDE716;
+}
+
 blockquote {
 	font-size: 3rem;
 }
