@@ -19,14 +19,15 @@
 	src: url('gladiator.otf') format('opentype');
 }
 
-@keyframes banners-animation-odd {
+@keyframes rotate {
 	from {
-		transform: translateX(0);
+		transform: rotate(0deg);
 	}
 	to {
-		transform: translateX(calc(-250px*7));
+		transform: rotate(360deg);
 	}
 }
+
 
 /* STYLING */
 
@@ -140,58 +141,64 @@ button {
 
 /* BANNER SECTION */
 
-#home-section-one {
+#banner {
 	background-color: var(--primary-color);
 	position: relative;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
 
-.odd {
+.banner {
 	color: white;
-	font-size: 4rem;
-	line-height: 4rem;
+	font-size: 2rem;
+	line-height: 2rem;
+	text-align: center;
 	font-weight: 800;
 	font-variation-settings: "wdth" 75;
 	font-optical-sizing: auto;
 	overflow: hidden;
-	animation-name: banners-animation-odd;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-}
-
-.even {
-	color: white;
-	font-size: 4rem;
-	line-height: 4rem;
-	font-weight: 800;
-	font-variation-settings: "wdth" 75;
-	font-optical-sizing: auto;
-	overflow: hidden;
-	animation-name: banners-animation-even;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
+	white-space: nowrap;
 }
 
 /* LANDING SECTION */
 
 #landing {
-	padding-top: 20rem;
-	padding-bottom: 20rem;
+	padding-top: 5rem;
+	padding-bottom: 8rem;
 	margin: auto;
 }
+
+.main-mark {
+	width: fit-content;
+	height: fit-content;
+	animation: rotate 10s linear infinite;
+}
+
+.landing-graphic {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	align-items: center;
+}
+
 .graphic-mark {
 	font-size: 15rem;
+	line-height: 15rem;
+	letter-spacing: -0.4rem;
 	font-weight: 800;
-	line-height: 12rem;
 	text-align: center;
 	color: #FB01F1;
 }
 
+.landing-mark {
+	display: inline-block;
+	transform: translateY(-1.3rem)
+}
+
 .landing-text {
-	font-size: 5rem;
+	font-size: 4rem;
 	font-weight: 800;
-	line-height: 5rem;
+	line-height: 4rem;
 	text-align: center;
 	color: #FB01F1;
 }
@@ -472,6 +479,17 @@ footer {
 		}
 	}
 
+	#landing {
+		padding-top: 7rem;
+		padding-bottom: 7rem;
+		margin: auto;
+	}
+
+	.landing-text {
+		font-size: 7rem;
+		line-height: 7rem;
+	}
+
 	.subsection-web-info p {
 		max-width: 65ch;
 		margin: auto;
@@ -545,6 +563,31 @@ footer {
 		flex-direction: row;
 		justify-content: space-between;
 		gap: 8rem;
+	}
+	
+	#landing {
+		padding-top: 7rem;
+		padding-bottom: 12rem;
+		margin: auto;
+	}
+
+	.landing-graphic {
+		gap: 3rem;
+	}
+
+	.main-mark {
+		height: fit-content;
+		width: fit-content;
+	}
+
+	.graphic-mark {
+		font-size: 20rem;
+		line-height: 20rem;
+	}
+
+	.landing-text {
+		font-size: 10rem;
+		line-height: 10rem;
 	}
 
 	.all-articles {

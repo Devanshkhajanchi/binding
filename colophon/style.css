@@ -88,6 +88,7 @@ details[open] > summary {
 
 	.upper, .lower, .numbers, .punct {
 		border-top: solid 0.75px lightgrey;
+		cursor: pointer;
 	}
 
 	summary {
