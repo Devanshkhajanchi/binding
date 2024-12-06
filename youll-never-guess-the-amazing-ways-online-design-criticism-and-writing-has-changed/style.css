@@ -7,14 +7,12 @@ h1 {
 }
 
 .graphic-text {
-	background-color: #FB01F1;
+	background-color: #6583FC;
 }
 
 blockquote {
 	font-size: 3rem;
 }
-
-
 
 @media (min-width: 800px) {
 
