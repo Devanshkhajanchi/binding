@@ -58,7 +58,7 @@ details[open] > summary {
 
 @media (min-width: 800px) {
 	.subsection-about {
-		max-width: 100ch;
+		max-width: 120ch;
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
 		gap: 1rem;
@@ -118,10 +118,11 @@ details{
 	grid-column: 3/5;
 }
 
-
-
 /* DESKTOP */
 
-@media (min-width: 800px) {
+@media (min-width: 1080) {
+
+
+
 
 }

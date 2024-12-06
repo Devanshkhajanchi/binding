@@ -145,7 +145,7 @@ button {
 	background-color: var(--primary-color);
 	position: relative;
 	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-bottom: 0.2rem;
 }
 
 .banner {
@@ -531,7 +531,6 @@ footer {
 		top: 0rem;
 	}
 
-
 }
 
 /* DESKTOP */
@@ -544,18 +543,6 @@ footer {
 		justify-content: space-between;
 		align-items: center;
 		height: fit-content;
-	}
-
-	.moving-banners {
-		font-size: 5rem;
-		line-height: 5.5rem;
-	}
-
-	#do-better {
-		p {
-			font-size: 10rem;
-			padding-top: 2rem;
-		}
 	}
 
 	.navigation-buttons {
@@ -588,6 +575,22 @@ footer {
 	.landing-text {
 		font-size: 10rem;
 		line-height: 10rem;
+	}
+
+	.graphic-text {
+		font-family: 'gladiator';
+		font-size: 18rem;
+		text-align: center;
+		border: #0F210B solid 0.5rem;
+		max-width: 50rem;
+		padding-top: 2rem;
+		margin:auto;
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}
+
+	.article-title {
+		margin-top: 7rem;
 	}
 
 	.all-articles {
