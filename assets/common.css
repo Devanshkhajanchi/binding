@@ -81,7 +81,7 @@ h1 {
 
 h2 {
 	text-align: center;
-	font-size: 2rem;
+	font-size: 2.75rem;
 	font-weight: 600;
 	font-variation-settings: "wdth" 75;
 	font-optical-sizing: auto;
@@ -92,6 +92,15 @@ h3 {
 	font-weight: 600;
 	font-variation-settings: "wdth" 75;
 	font-optical-sizing: auto;
+}
+
+blockquote {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+aside {
+	color: grey;
 }
 
 /* NAV BAR */
@@ -145,7 +154,7 @@ button {
 	background-color: var(--primary-color);
 	position: relative;
 	padding-top: 1rem;
-	padding-bottom: 0.2rem;
+	padding-bottom: 0.5rem;
 }
 
 .banner {
@@ -330,6 +339,22 @@ button {
 }
 
 /* END OF PAGE SUGGESTED ARTICLES */
+
+#related {
+	justify-items: center;
+	margin: 1rem;
+	margin-bottom: 5rem;
+}
+
+.related {
+	text-align: center;
+}
+
+.related-content {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
 
 .initials {
 	font-family: 'gladiator';
@@ -545,6 +570,12 @@ footer {
 		height: fit-content;
 	}
 
+	blockquote {
+		font-size: 2.5rem;
+		line-height: 3rem;
+		margin-bottom: 2rem;
+	}
+
 	.navigation-buttons {
 		display: flex;
 		flex-direction: row;
@@ -591,6 +622,14 @@ footer {
 
 	.article-title {
 		margin-top: 7rem;
+	}
+
+	.article-subheadings {
+		height: 20rem;
+		position: sticky;
+		align-content: start;
+		background-color: white;
+		top: 0rem;
 	}
 
 	.all-articles {

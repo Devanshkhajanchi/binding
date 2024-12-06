@@ -13,6 +13,7 @@ li a:hover {
 #home-section-two {
 	padding: 1rem;
 	padding-top: 3rem;
+	margin-bottom: 5rem;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -53,7 +54,7 @@ li a:hover {
 	}
 }
 
-.cc, .ss, .dw {
+.cc, .ss, .oc {
 	font-family: "gladiator";
 	font-size: 10rem;
 	text-align: center;

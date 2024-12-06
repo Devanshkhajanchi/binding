@@ -14,10 +14,6 @@ p {
 	background-color: var(--article-three-color);
 }
 
-blockquote {
-	font-size: 3rem;
-}
-
 @media (min-width: 800px) {
 
 	h1 {
