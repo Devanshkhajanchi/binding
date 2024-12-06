@@ -14,7 +14,7 @@ if(articleNum==1){
 }
 
 else if (articleNum==2){
-	titleBox.innerHTML = 'Graphic Design Criticism as a Spectator Sport.'
+	titleBox.innerHTML = 'Graphic Design Criticism as a Spectator Sport.'
 	articleLink.href = "graphic-design-criticism-as-a-spectator-sport/index.html"
 	articleAuthor.innerHTML = 'Michael Bierut, 2013'
 	initials.innerHTML = 'SS'

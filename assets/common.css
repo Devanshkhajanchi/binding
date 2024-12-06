@@ -403,6 +403,16 @@ footer {
 		margin: auto;
 	}
 
+	#subsection-articles {
+		max-width: 65ch;
+		#title {
+			font-size: 2.5rem
+		}
+		#initials {
+			font-size: 15rem;
+		}
+	}
+
 	.subsection-web-info p {
 		max-width: 65ch;
 		margin: auto;
